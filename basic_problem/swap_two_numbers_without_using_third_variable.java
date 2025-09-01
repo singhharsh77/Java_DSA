@@ -24,6 +24,9 @@ public class swap_two_numbers_without_using_third_variable {
 
         a = a^b;
         b = a^b;
+
+
+        
         a = a^b;
 
         System.out.println("After Swapping "+a+" "+b);
