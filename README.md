@@ -9,7 +9,7 @@
                                                                  
 </pre></h1>
 <p align="center">  
-<b>Harsh's DSA Journey 
+<b><h1>Harsh's DSA Journey</h1> 
 </b>    <br>  
 Solving DSA one problem at a time on <b>GitHub Codespaces</b> 
 </p>
