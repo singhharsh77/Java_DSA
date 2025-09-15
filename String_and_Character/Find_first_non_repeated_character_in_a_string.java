@@ -12,6 +12,7 @@ public class Find_first_non_repeated_character_in_a_string {
         char ch = str.charAt(i);
 
         counts.put(ch, counts.getOrDefault(ch, 0) + 1);
+       
     }
         char result = 0;
         for(int i = 0 ; i<str.length();i++){
@@ -23,10 +24,31 @@ public class Find_first_non_repeated_character_in_a_string {
 
         }
         if(result!=0){
-            System.out.println("First non Repeated number: "+result);
+            System.out.println("First non Repeated character is : "+result);
         }else{
             System.out.println("No Non-Repeated Values Found!");
         }
+
+
+
+ // BEST METHOD ya fir sare characters ko leke XOR kr do lower case kr k
+// Example A^A =0  , b^b = 0 end me sirf non repeated character hi bachega.... hahahaha
+//     public static char unique(String str) {
+//         char ans = 0;
+//         for (int i = 0; i < str.length(); i++) {
+//             ans = (char)(ans ^ str.charAt(i)); // XOR characters
+//         }
+//         return ans;
+//     }
+
+//     public static void main(String[] args) {
+//         String str = "abbaccd";  // here 'd' is unique
+
+//         char result = unique(str);
+//         System.out.println("The non-repeated character is: " + result);
+//     }
+// }
+
     
     }
 
