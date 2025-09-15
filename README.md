@@ -1,48 +1,56 @@
-# Java_DSA<h1 align="center">    
-<pre>  
-██████╗ ███████╗ █████╗     ███████╗██╗███╗   ██╗ █████╗ ██╗     
-██╔══██╗██╔════╝██╔══██╗    ██╔════╝██║████╗  ██║██╔══██╗██║     
-██║  ██║███████╗███████║    █████╗  ██║██╔██╗ ██║███████║██║     
-██║  ██║╚════██║██╔══██║    ██╔══╝  ██║██║╚██╗██║██╔══██║██║     
-██████╔╝███████║██║  ██║    ██║     ██║██║ ╚████║██║  ██║███████╗
-╚═════╝ ╚══════╝╚═╝  ╚═╝    ╚═╝     ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝
-                                                                 
-</pre></h1>
-<p align="center">  
-<b><h1>Harsh's DSA Journey</h1> 
-</b>    <br>  
-Solving DSA one problem at a time on <b>GitHub Codespaces</b> 
-</p>
-<p align="center">  
-<img src="https://img.shields.io/badge/Language-Java%20%7C%20Python%20%7C%20C++-brightgreen?style=for-the-badge">  
-<img src="https://img.shields.io/badge/Editor-VS%20Code-blue?style=for-the-badge&logo=visualstudiocode">  <img src="https://img.shields.io/badge/Platform-GitHub%20Codespaces-lightgrey?style=for-the-badge&logo=github">  
-<img src="https://img.shields.io/badge/Consistency- %20Daily-brightred?style=for-the-badge"></p>
----
-## About This Repo
-- Solving DSA questions daily using **GitHub Codespaces** (because cloud > local ). 
-- Goal: Strengthen my problem-solving & prepare for **placements + competitive coding**.  
-- Covers problems from arrays, strings, recursion, trees, graphs, DP, and more.  
-- Each solution is written cleanly with **comments + explanation**.  
----
-## Tech Stack
-- **Language**: Java / Python / C++ (depending on mood )  
-- **Platform**: GitHub Codespaces  
-- **Editor**: VS Code (online, no setup hassle )  
----
+<h1 align="center"> <pre>
+██████╗  ███████╗ █████╗     ███████╗██╗███╗   ██╗ █████╗ ██╗     
+██╔══██╗ ██╔════╝██╔══██╗    ██╔════╝██║████╗  ██║██╔══██╗██║     
+██║  ██║ ███████╗███████║    █████╗  ██║██╔██╗ ██║███████║██║     
+██║  ██║ ╚════██║██╔══██║    ██╔══╝  ██║██║╚██╗██║██╔══██║██║     
+██████╔╝ ███████║██║  ██║    ██║     ██║██║ ╚████║██║  ██║███████╗
+╚═════╝  ╚══════╝╚═╝  ╚═╝    ╚═╝     ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝
+</pre>
+ <p align="center"> <img src="https://img.shields.io/badge/Language-Java%20%7C%20Python%20%7C%20C++-brightgreen?style=for-the-badge"> <img src="https://img.shields.io/badge/Editor-VS%20Code-blue?style=for-the-badge&logo=visualstudiocode"> <img src="https://img.shields.io/badge/Platform-GitHub%20Codespaces-lightgrey?style=for-the-badge&logo=github"> <img src="https://img.shields.io/badge/Consistency-Daily-brightred?style=for-the-badge"> </p>
+📖 About This Repo
 
----
-## Progress Tracker
-→ Fibonacci Recursion   
-→ Prime Numbers till N   
-→ GCD & LCM
-→ Next Challenge coming...  
-(I’ll keep updating this as I go!)  
----
-## Why This Repo?I believe **consistency > motivation**.  
-This repo keeps me accountable, shows my progress publicly, and helps others learn from my solutions. Also, future me will thank present me .  
----
-## Connect With Me
-- GitHub: [@singhharsh77](https://github.com/singhharsh77)  
-- LinkedIn: [Harsh Singh](https://www.linkedin.com/in/harsh-singh-7813322488)  
----
-> *“DSA is not just about coding — it’s about learning how to think, break problems, and rebuild them smarter.”*  
+📌 Solving DSA problems daily using GitHub Codespaces (cloud > local setup).
+
+🎯 Goal: Strengthen problem-solving + prepare for placements & competitive coding.
+
+🧩 Topics: Arrays, Strings, Recursion, Trees, Graphs, Dynamic Programming & more.
+
+
+
+🛠️ Tech Stack
+
+Languages: Java / Python / C++
+
+Platform: GitHub Codespaces
+
+Editor: VS Code (online, zero setup hassle)
+
+
+
+💡 Why This Repo?
+
+I believe Consistency > Motivation.
+This repo:
+
+Keeps me accountable 💯
+
+Tracks my progress publicly 📈
+
+Helps others learn from my solutions 👨‍💻
+
+Future me will thank present me 🙌
+
+🔗 Connect With Me
+
+<h2 align="center">🔗 Connect With Me</h2>
+
+<p align="center">
+  <a href="https://github.com/singhharsh77">
+    <img src="https://img.shields.io/badge/GitHub-@singhharsh77-black?style=for-the-badge&logo=github" />
+  </a>
+  <a href="https://www.linkedin.com/in/harsh-singh-7813322488">
+    <img src="https://img.shields.io/badge/LinkedIn-Harsh%20Singh-blue?style=for-the-badge&logo=linkedin" />
+  </a>
+</p>
+
+“DSA is not just about coding — it’s about learning how to think, break problems, and rebuild them smarter.”
