@@ -22,7 +22,7 @@ public class MergeSortedArray {
             } else {
                 arr3[k++] = arr2[j++];
             }
-        }
+        }   
 
         // Copy remaining elements
         while (i < n1) arr3[k++] = arr1[i++];
