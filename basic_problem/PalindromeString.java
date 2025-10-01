@@ -18,7 +18,13 @@ public class PalindromeString {
         int left = 0;
         int right = str.length();
         while(left<right){
-            // krna h aaggeee
-        }
+            if(str.charAt(left) != str.charAt(right -1)){
+                return false;
+            }else{
+                left++;
+                right--;
+            }
+           
+        } return true;
     }
 }
