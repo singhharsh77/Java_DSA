@@ -1,4 +1,3 @@
-package basic_problem;
 import java.util.*;
 public class Armstrong_num {
     public static void main(String[] args){
@@ -22,5 +21,7 @@ public class Armstrong_num {
     }else{
         System.out.print(Original+" is not Armstrong number. ");
     }
+    sc.close();
+
     }
 }

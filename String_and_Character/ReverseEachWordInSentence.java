@@ -16,6 +16,7 @@ public class ReverseEachWordInSentence {
         }
             System.out.print(ReverseStr.toString().trim());
 
+        sc.close();
 
     }
 }

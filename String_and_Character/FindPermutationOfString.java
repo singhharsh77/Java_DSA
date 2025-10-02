@@ -18,12 +18,15 @@ public class FindPermutationOfString {
     } 
 
     public static void main(String[] args){
+
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter an String: ");
         String str = sc.nextLine();
 
 
         permute(str, " ");
+                sc.close();
+
 
     }    
 }

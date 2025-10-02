@@ -49,7 +49,8 @@ public class Find_first_non_repeated_character_in_a_string {
 //     }
 // }
 
-    
+            sc.close();
+
     }
 
 }

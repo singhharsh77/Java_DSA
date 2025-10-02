@@ -19,5 +19,7 @@ public class ReverseAStringReverseLoop {
 
         System.out.println("before reversed String: "+str);
         System.out.println("After reversed: "+reverseString(str));
+                sc.close();
+
     }
 }

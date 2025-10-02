@@ -20,6 +20,7 @@ class DuplicateWords {
                 System.out.println(entry.getKey() + " → " + entry.getValue() + " times");
             }
     } 
-      
+              sc.close();
+
 }
 }

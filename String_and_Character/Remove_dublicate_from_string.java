@@ -19,6 +19,8 @@ public class Remove_dublicate_from_string {
             }
         }
         System.out.println("After Removing The Dublicates: "+ result.toString());
+                sc.close();
+
     }
 
 }

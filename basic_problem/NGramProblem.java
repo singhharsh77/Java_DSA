@@ -29,6 +29,8 @@ class NGramProblem{
 
             }
         }
+                sc.close();
+
 
     }
 

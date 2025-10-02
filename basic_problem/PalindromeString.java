@@ -10,6 +10,7 @@ public class PalindromeString {
         } else {
             System.out.println("The string \""+str+"\" is not a palindrome.");
         }
+        sc.close();
 
     }
 

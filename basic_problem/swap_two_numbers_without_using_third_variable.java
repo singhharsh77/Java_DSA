@@ -1,4 +1,3 @@
-package basic_problem;
 import java.util.*;
 public class swap_two_numbers_without_using_third_variable {
     public static void main(String[] args){
@@ -32,6 +31,7 @@ public class swap_two_numbers_without_using_third_variable {
         System.out.println("After Swapping "+a+" "+b);
         
         
+        sc.close();
 
     }
 }

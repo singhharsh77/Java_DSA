@@ -25,5 +25,6 @@ public class Count_Occ_In_String {
         for (Map.Entry<Character, Integer> entry : CharCount.entrySet()) {
             System.out.println(entry.getKey() + " : " + entry.getValue());
         }
+        sc.close();
     }
 }

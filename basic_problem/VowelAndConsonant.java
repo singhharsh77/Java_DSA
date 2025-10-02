@@ -22,6 +22,7 @@ public class VowelAndConsonant {
         }
         System.out.println("vowel: "+ vowel);
         System.out.println("Consonant: "+consonant);
+        sc.close();
 
     }
 }

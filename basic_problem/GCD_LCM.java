@@ -27,6 +27,7 @@ class Main {
     if(!sc.hasNextLong()){
         System.out.print("Enter a Valid Input for a ");
         return;
+
     }
     long a = sc.nextLong();
     if(!sc.hasNextLong()){
@@ -43,5 +44,9 @@ class Main {
     
     System.out.println("GCD: "+ g);
     System.out.println("LCM: "+ l);
+
+
+
+
     }
 }
