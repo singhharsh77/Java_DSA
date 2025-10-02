@@ -1,17 +1,4 @@
 package JTG;
-
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int val) { 
-        this.val = val; 
-        this.left = null;
-        this.right = null;
-    }
-
-
 public class TargetSumBinaryTree {
     // Definition for a binary tree node
 
@@ -58,6 +45,14 @@ public class TargetSumBinaryTree {
 
     }
 }
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
 
-    
+    TreeNode(int val) { 
+        this.val = val; 
+        this.left = null;
+        this.right = null;
+    }
 }

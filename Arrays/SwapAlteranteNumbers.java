@@ -20,7 +20,7 @@ public class SwapAlteranteNumbers {
     public static void main(String[] args){
        
         int[] even = {1,2,3,4,5,6,7,8};
-        int[] odd = {9,8,7,6,5};
+       // int[] odd = {9,8,7,6,5};
 
 
         swapAlternate(even, 8);

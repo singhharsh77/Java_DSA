@@ -44,6 +44,7 @@ class Main {
     
     System.out.println("GCD: "+ g);
     System.out.println("LCM: "+ l);
+        sc.close();
 
 
 

@@ -1,5 +1,4 @@
 package String_and_Character;
-import java.util.Scanner;
 import java.util.*;
 public class FindPermutationOfString {    
     public static void permute(String s, String result){

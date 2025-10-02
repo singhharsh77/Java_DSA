@@ -25,7 +25,7 @@ public class InsertionsSort {
         }
 }
 public static void printArray(int[] arr){
-    int n = arr.length;
+    //int n = arr.length;
     for(int x : arr){
         System.out.print(x+ " ");
 

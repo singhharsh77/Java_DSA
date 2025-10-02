@@ -24,7 +24,7 @@ public class FirstSerach {
         return -1;
     }
     public static void main(String[] args){
-         int[] even = {2, 3, 5, 8, 9, 55, 67};
+         //int[] even = {2, 3, 5, 8, 9, 55, 67};
         int[] odd = {2, 3, 4, 5, 6, 34, 634};
 
         int index = binarySrch(odd, odd.length, 5);

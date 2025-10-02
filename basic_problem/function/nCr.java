@@ -28,5 +28,6 @@ public class nCr {
 
 
         System.out.println("anser is: "+NcR(n,r));
+        sc.close();
     }
 }

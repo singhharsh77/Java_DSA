@@ -1,7 +1,6 @@
 package function;
 import java.util.*;
 
-import javax.sound.midi.SysexMessage;
 public class primeNo {
 
     public static boolean isprime(int n){
@@ -22,6 +21,9 @@ public class primeNo {
         }else{
             System.out.println("not a prime: ");
         }
+
+                sc.close();
+
     }
     
 }
