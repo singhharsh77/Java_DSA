@@ -1,19 +1,23 @@
 package TwoDArray;
+// matrix ko uper se neeche for neeche se uper print krna hai
 public class PrintWave {
     public static void printWave(int[][] matrix, int nRows, int mCols){
+        // col wise travel krna hai
         for(int col = 0;col<mCols;col++){
+            // for odd col
             if(col % 2 == 1){
                 for(int row = nRows-1;row>=0;row--){
                     System.out.print(matrix[row][col]+" ");
                 }
             }
+            //for even col
                 else{
                     for(int row = 0; row<nRows;row++){
                         System.out.print(matrix[row][col]+" ");
                 }
 
             }
-            System.out.println();
+            // System.out.println();
         }
     }
     public static void main(String[] args) {
