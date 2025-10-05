@@ -1,5 +1,16 @@
 package TwoDArray;
 import java.util.*;
+// O(m*n)
+// O(1)
+// Spiral Print of 2D Array
+// 1 2 3 4
+// 5 6 7 8
+// 9 10 11 12
+// 13 14 15 16
+// Output: 1 2 3 4 8 12 16 15 14 13 9 5 6 7 11 10
+// Approach:
+// 1. Initialize four variables to keep track of the boundaries of the matrix: startingRow
+    
 public class SprialPrint {
     
     public static List<Integer> spiralOrder(int[][] matrix) {
@@ -36,6 +47,7 @@ public class SprialPrint {
             }
             endingRow--;
             }
+// bottom left se top left
             if (startingCol <= endingCol) {
             for(int index = endingRow; index>=startingRow; index--){
                 result.add(matrix[index][startingCol]);
