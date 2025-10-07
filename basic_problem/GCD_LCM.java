@@ -9,9 +9,11 @@ class Main {
         if(b==0) return a;
 
         while(b!=0){
-            long t = a%b;
-            a=b;
-            b=t;
+            if(a>b){
+                a = a - b;
+            }else{
+                b= b - a;
+            }
         }
         return a;
     }
@@ -22,6 +24,8 @@ class Main {
 }
 
     public static void main(String[] args) {
+
+        //Input Liya h----------
     Scanner sc = new Scanner(System.in);
     System.out.print("Enter integers (a,b) ");
     if(!sc.hasNextLong()){
