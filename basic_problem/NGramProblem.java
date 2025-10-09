@@ -1,5 +1,10 @@
 import java.util.*;
 class NGramProblem{
+//     Enter a String: harsh singh i good
+//   I/P   Entere N: 2
+//   O/P   ha ar rs sh h   s si in ng gh h   i i   g go oo od
+    
+    
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         // input string
