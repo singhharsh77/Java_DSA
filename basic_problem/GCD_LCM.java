@@ -41,8 +41,7 @@ class Main {
 
     if(a==0 && b==0){
         System.out.print("GCD is undefined for (0,0).  LCM is 0 by convention.");
-        return;
-    }
+        return;}
     long g = gcd(a,b);
     long l = lcm(a,b);
     
