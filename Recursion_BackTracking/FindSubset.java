@@ -2,7 +2,7 @@ package Recursion_BackTracking;
 import java.util.*;
 public class FindSubset {
     public static void main(String[] args){
-        int[] arr = {1,2};
+        int[] arr = {1,2,3,4,5,5,6,6};
         List<Integer> current = new ArrayList<>();
         findSubset(arr,0,current);
     }

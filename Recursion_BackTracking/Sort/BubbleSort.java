@@ -1,4 +1,4 @@
-package Recursion_BackTracking;
+package Recursion_BackTracking.Sort;
 
 public class BubbleSort {
     public static void main(String[] args){
