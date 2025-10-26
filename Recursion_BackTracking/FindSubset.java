@@ -2,25 +2,36 @@ package Recursion_BackTracking;
 import java.util.*;
 public class FindSubset {
     public static void main(String[] args){
-        int[] arr = {1,2,3,4,5,5,6,6};
-        List<Integer> current = new ArrayList<>();
-        findSubset(arr,0,current);
+        int[] nums = {1,2};
+        List<List<Integer>> result = subsets(nums);
+        System.out.println(result);
     }
 
-    public static void findSubset(int[] arr, int index ,List<Integer> current){
+     public static List<List<Integer>> subsets(int[] nums) {
+        List<List<Integer>> ans = new ArrayList<>(); // store all subsets
+        List<Integer> output = new ArrayList<>();    // current subset
+        int index = 0;
+        solve(nums, output, index, ans);
+        return ans;
+    }
 
-        if(index == arr.length){
-            System.out.println(current);
+
+     public static void solve(int[] nums, List<Integer> output, int index, List<List<Integer>> ans) {
+        // Base case: if we've considered all elements
+        if (index >= nums.length) {
+            ans.add(new ArrayList<>(output)); // make a copy of current subset
             return;
         }
 
-    findSubset(arr, index+1, current);
-    current.add(arr[index]);
+        // 1. Exclude current element and move forward
+        solve(nums, output, index + 1, ans);
 
-    findSubset(arr, index+1, current);
-    current.remove(current.size() -1);
+        // 2. Include current element and move forward
+        output.add(nums[index]);
+        solve(nums, output, index + 1, ans);
 
-
+        // Backtrack: remove last element to try next possibility
+        output.remove(output.size() - 1);
     }
 }
     
