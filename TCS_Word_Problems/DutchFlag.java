@@ -26,8 +26,8 @@ class DutchFlag {
 
         int low= 0;
         int mid = 0;
-         int high = n-1;
-         while(low <= mid && mid <= high){
+        int high = n-1;
+        while(low <= mid && mid <= high){
 
             if(arr[mid] == 0){
                 int temp = arr[low];
