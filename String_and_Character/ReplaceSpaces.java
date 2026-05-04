@@ -26,5 +26,6 @@ public class ReplaceSpaces {
     }
     return result.toString();
 }
+
     
 }

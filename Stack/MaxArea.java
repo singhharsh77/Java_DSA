@@ -25,7 +25,7 @@ public class MaxArea {
         }
 
 
-        s= new Stack();
+        s = new Stack();
 
         for(int i = 0;i<heights.length;i++){
             while(!s.isEmpty() && heights[s.peek()] >= heights[i]){
